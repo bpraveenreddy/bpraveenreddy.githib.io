@@ -1,266 +1,255 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce</title>
-    <link rel="stylesheet" href="shopping.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="head">
-        <div class="container">
-          <div class="navbar">
-            <div class="logo">
-              <h2 width="125px">REDstore</h2>
-            </div>
-            <nav>
-              <ul id="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Account</a></li>
-              </ul>
-            </nav>
-            <div>
-              <img
-                src="images/cart.png"
-                alt="cart"
-                width="25px"
-                height="auto"
-              />
-            </div>
-            <div>
-              <img
-                src="images/menu.png"
-                width="25px"
-                class="menu_bar"
-                onclick="MenuTog()"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col_2">
-              <h1>Give Your Workout <br />A New Style!</h1>
-              <p>
-                Sucess isn't always about greatness.It's about
-                consistency.Consistent <br />hard work gains sucess.
-              </p>
-              <a class="btn" href="#">Explore Now &#8594;</a>
-            </div>
-            <div class="col_2">
-              <img src="images/headerImage.png" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-------------------------body content------------------------------->
-    <div class="categories">
-      <div class="small_cont">
-        <div class="row">
-          <div class="col_3">
-            <img src="images/category-1.jpg" />
-          </div>
-          <div class="col_3">
-            <img src="images/category-2.jpg" />
-          </div>
-          <div class="col_3">
-            <img src="images/category-3.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-----------------featured products---------------------->
-    <div class="small_cont">
-      <h2 class="title">Featured Products</h2>
-      <div class="row">
-        <div class="col_4">
-          <img src="images/product-1.jpg" />
-          <h4>Red Colour T-shirt</h4>
-          <p>price:500.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-2.jpg" />
-          <h4>Black Shoes</h4>
-          <p>price:400.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-3.jpg" />
-          <h4>Men's Trouser</h4>
-          <p>price:500.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-4.jpg" />
-          <h4>Black Colour T-shirt</h4>
-          <p>price:500.00</p>
-        </div>
-      </div>
-      <h2 class="title">Latest Products</h2>
-      <div class="row">
-        <div class="col_4">
-          <img src="images/product-5.jpg" />
-          <h4>Men's white shoe</h4>
-          <p>price:500.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-6.jpg" />
-          <h4>Puma black T-shirt</h4>
-          <p>price:600.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-7.jpg" />
-          <h4>Socks</h4>
-          <p>price:200.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-8.jpg" />
-          <h4>Watch</h4>
-          <p>price:900.00</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col_4">
-          <img src="images/product-9.jpg" />
-          <h4>Watch</h4>
-          <p>price:1000.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-10.jpg" />
-          <h4>Black Shoes</h4>
-          <p>price:400.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-11.jpg" />
-          <h4>White shoes</h4>
-          <p>price:700.00</p>
-        </div>
-        <div class="col_4">
-          <img src="images/product-12.jpg" />
-          <h4>Men's Trouser</h4>
-          <p>price:500.00</p>
-        </div>
-      </div>
-    </div>
-    <!---------------------EXclusive products------------------------------>
-    <div class="offer">
-      <div class="row">
-        <div class="col_2">
-          <img src="images/exclusive.png" class="img_off" />
-        </div>
-        <div class="col_2">
-          <p class="band">Exclusively Available on RedStore</p>
-          <h1>Smart Band 4</h1>
-          <small class="band_txt"
-            >The Smart band features 4 features a 39.9% larger AMOLED color
-            full-torch display with <br />
-            adjustable brightness,so Everything is clear as can be.</small
-          >
-          <br />
-          <a href="#" class="btn">Buy Now &#8594;</a>
-        </div>
-      </div>
-    </div>
-    <!---------------------------Rating section------------------------->
 
-    <div class="textimonial">
-      <div class="small_cont">
-        <div class="row">
-          <div class="col_3">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
-            </p>
-            <small>4.7 Star Rating</small><br />
-            <img src="images/user-1.png" class="user" />
-            <p class="name">Jenny.M</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="shopping.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Testing...</h1>
+  <header>
+    <div class="head">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h2 width="125px">REDstore</h2>
           </div>
-          <div class="col_3">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
-            </p>
-            <small>4.5 Star Rating</small>
-            <br />
-            <img src="images/user-2.png" class="user" />
-            <p class="name">Roy jace</p>
-          </div>
-          <div class="col_3">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
-            </p>
-            <small>5 Star Rating</small><br />
-            <img src="images/user-3.png" class="user" />
-            <p class="name">Rose Maria</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-------------------------------brands----------------------------->
-    <div class="brands">
-      <div class="small_cont">
-        <div class="row">
-          <div class="col_5">
-            <img src="images/logo-oppo.png" />
-          </div>
-          <div class="col_5">
-            <img src="images/logo-paypal.png" />
-          </div>
-          <div class="col_5">
-            <img src="images/logo-godrej.png" />
-          </div>
-          <div class="col_5">
-            <img src="images/logo-white.png" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-------------------------footer-------------------------->
-    <div class="footer">
-      <div class="small_cont">
-        <div class="row">
-          <div class="foot_1">
-            <h3>Download Our APP</h3>
-            <p>Download our App for Android and ios</p>
-            <img src="images/play-store.png" class="app" />
-            <img src="images/app-store.png" class="app" />
-          </div>
-          <div class="foot_2">
-            <img src="images/logo-white.png" />
-            <p>Our purpose is to make trust by the Customers.</p>
-          </div>
-          <div class="foot_3">
-            <h3>Use Full Links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Spot</li>
-              <li>Return Policy</li>
+          <nav>
+            <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
             </ul>
+          </nav>
+          <div>
+            <img src="images/cart.png" alt="cart" width="25px" height="auto" />
+          </div>
+          <div>
+            <img src="images/menu.png" width="25px" class="menu_bar" onclick="MenuTog()" />
           </div>
         </div>
-        <hr class="line" />
-        <div class="copy_right">&copy; Created BY Praveen Kumar</div>
+        <div class="row">
+          <div class="col_2">
+            <h1>Give Your Workout <br />A New Style!</h1>
+            <p>
+              Sucess isn't always about greatness.It's about
+              consistency.Consistent <br />hard work gains sucess.
+            </p>
+            <a class="btn" href="#">Explore Now &#8594;</a>
+          </div>
+          <div class="col_2">
+            <img src="images/headerImage.png" />
+          </div>
+        </div>
       </div>
     </div>
-    <!---------------------------script------------------------->
-    <script>
-      var menuIteams = document.getElementById("menu");
-      menuIteams.style.maxHeight = "0px";
-      function MenuTog() {
-        if (menuIteams.style.maxHeight == "0px") {
-          menuIteams.style.maxHeight = "200px";
-        } else {
-          menuIteams.style.maxHeight = "0px";
-        }
+  </header>
+  <!-------------------------body content------------------------------->
+  <div class="categories">
+    <div class="small_cont">
+      <div class="row">
+        <div class="col_3">
+          <img src="images/category-1.jpg" />
+        </div>
+        <div class="col_3">
+          <img src="images/category-2.jpg" />
+        </div>
+        <div class="col_3">
+          <img src="images/category-3.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------------featured products---------------------->
+  <div class="small_cont">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col_4">
+        <img src="images/product-1.jpg" />
+        <h4>Red Colour T-shirt</h4>
+        <p>price:500.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-2.jpg" />
+        <h4>Black Shoes</h4>
+        <p>price:400.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-3.jpg" />
+        <h4>Men's Trouser</h4>
+        <p>price:500.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-4.jpg" />
+        <h4>Black Colour T-shirt</h4>
+        <p>price:500.00</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col_4">
+        <img src="images/product-5.jpg" />
+        <h4>Men's white shoe</h4>
+        <p>price:500.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-6.jpg" />
+        <h4>Puma black T-shirt</h4>
+        <p>price:600.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-7.jpg" />
+        <h4>Socks</h4>
+        <p>price:200.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-8.jpg" />
+        <h4>Watch</h4>
+        <p>price:900.00</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col_4">
+        <img src="images/product-9.jpg" />
+        <h4>Watch</h4>
+        <p>price:1000.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-10.jpg" />
+        <h4>Black Shoes</h4>
+        <p>price:400.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-11.jpg" />
+        <h4>White shoes</h4>
+        <p>price:700.00</p>
+      </div>
+      <div class="col_4">
+        <img src="images/product-12.jpg" />
+        <h4>Men's Trouser</h4>
+        <p>price:500.00</p>
+      </div>
+    </div>
+  </div>
+  <!---------------------EXclusive products------------------------------>
+  <div class="offer">
+    <div class="row">
+      <div class="col_2">
+        <img src="images/exclusive.png" class="img_off" />
+      </div>
+      <div class="col_2">
+        <p class="band">Exclusively Available on RedStore</p>
+        <h1>Smart Band 4</h1>
+        <small class="band_txt">The Smart band features 4 features a 39.9% larger AMOLED color
+          full-torch display with <br />
+          adjustable brightness,so Everything is clear as can be.</small>
+        <br />
+        <a href="#" class="btn">Buy Now &#8594;</a>
+      </div>
+    </div>
+  </div>
+  <!---------------------------Rating section------------------------->
+
+  <div class="textimonial">
+    <div class="small_cont">
+      <div class="row">
+        <div class="col_3">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <small>4.7 Star Rating</small><br />
+          <img src="images/user-1.png" class="user" />
+          <p class="name">Jenny.M</p>
+        </div>
+        <div class="col_3">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <small>4.5 Star Rating</small>
+          <br />
+          <img src="images/user-2.png" class="user" />
+          <p class="name">Roy jace</p>
+        </div>
+        <div class="col_3">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <small>5 Star Rating</small><br />
+          <img src="images/user-3.png" class="user" />
+          <p class="name">Rose Maria</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------brands----------------------------->
+  <div class="brands">
+    <div class="small_cont">
+      <div class="row">
+        <div class="col_5">
+          <img src="images/logo-oppo.png" />
+        </div>
+        <div class="col_5">
+          <img src="images/logo-paypal.png" />
+        </div>
+        <div class="col_5">
+          <img src="images/logo-godrej.png" />
+        </div>
+        <div class="col_5">
+          <img src="images/logo-white.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------footer-------------------------->
+  <div class="footer">
+    <div class="small_cont">
+      <div class="row">
+        <div class="foot_1">
+          <h3>Download Our APP</h3>
+          <p>Download our App for Android and ios</p>
+          <img src="images/play-store.png" class="app" />
+          <img src="images/app-store.png" class="app" />
+        </div>
+        <div class="foot_2">
+          <img src="images/logo-white.png" />
+          <p>Our purpose is to make trust by the Customers.</p>
+        </div>
+        <div class="foot_3">
+          <h3>Use Full Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Spot</li>
+            <li>Return Policy</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="line" />
+      <div class="copy_right">&copy; Created BY Praveen Kumar</div>
+    </div>
+  </div>
+  <!---------------------------script------------------------->
+  <script>
+    var menuIteams = document.getElementById("menu");
+    menuIteams.style.maxHeight = "0px";
+    function MenuTog() {
+      if (menuIteams.style.maxHeight == "0px") {
+        menuIteams.style.maxHeight = "200px";
+      } else {
+        menuIteams.style.maxHeight = "0px";
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
